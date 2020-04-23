@@ -9,11 +9,16 @@ body {
   }
 
 
-#header{
+nav{
+    position: fixed;
+
+}
+
+header{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 15px 9%;
+    padding: 0px 10%;
     box-shadow: 0px 0px 6px rgba(50, 50, 50, 0.77)
 }
 
@@ -23,18 +28,24 @@ body {
     cursor: pointer;
 }
 
-h3{
-    margin-right: 54%;
+h2{
+    margin-right: 85%;
     margin-left: none;
 }
 
 
 li{
+    display: inline;
     list-style: none;
-    display: inline-block;
+    position: sticky;
+    margin-left: auto;
     padding: 0px 20px;
 }
 
 a{
     text-decoration:    none;
+}
+
+@media{
+    
 }
