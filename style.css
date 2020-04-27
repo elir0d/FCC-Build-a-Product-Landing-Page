@@ -91,6 +91,7 @@ a{
     text-align: center;
     height: 400px;
     width: 490px;
+    text-overflow: clip;
     background-color: red;
     border: 3px solid yellow;
 }
