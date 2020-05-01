@@ -73,27 +73,30 @@ a{
 }
 
 .video-wrap{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1fr 1fr;
+    justify-content: space-around;
+    align-content: space-around;
     border: 3px solid olivedrab;
+    text-align: center;
 }
 
 #video{
-    height: 400px;
-    width: 490px;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
     border: 3px solid rgb(227, 243, 1);
+    display: block;
 
 }
 
 #blank{
-    text-align: center;
-    height: 400px;
-    width: 490px;
-    text-overflow: clip;
-    background-color: red;
+    width: 100%;
+    height: 100%;
     border: 3px solid yellow;
+    background-image: url(image/background.jpg);
 }
 
 #Features{
