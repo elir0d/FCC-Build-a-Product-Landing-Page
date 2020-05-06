@@ -69,7 +69,7 @@ a{
     padding: 0 10%;
     font-family:  sans-serif;
     text-align: center;
-    border: 3px solid blueviolet;
+    /* border: 3px solid blueviolet; */
 }
 
 
@@ -79,9 +79,9 @@ a{
     grid-row: 1fr 1fr;
     justify-content: space-between;
     align-content: space-between;
-    border: 3px solid olivedrab;
+    /* border: 3px solid olivedrab; */
     text-align: justify;
-    border: 3px solid rgb(245, 140, 4);
+    /* border: 3px solid rgb(245, 140, 4); */
 }
 
 #top img{
@@ -89,12 +89,17 @@ a{
     height: 99%;
     margin-left: auto;
     margin-right: auto;
-    border: 3px solid rgb(1, 207, 243);
+    /* border: 3px solid rgb(1, 207, 243); */
 }
 
 .about{
-    padding: 16px 16px;
+    padding: 0px 16px 16px;
 
+}
+
+hr{
+    padding: 0;
+    margin: 0;
 }
 
 h2{
@@ -108,7 +113,7 @@ h2{
     grid-row: 1fr 1fr;
     justify-content: space-between;
     align-content: space-between;
-    border: 3px solid olivedrab;
+    /* border: 3px solid olivedrab; */
     text-align: justify;
 }
 
@@ -117,15 +122,16 @@ h2{
     height: 99%;
     margin-left: auto;
     margin-right: auto;
-    border: 3px solid rgb(227, 243, 1);
+    /* border: 3px solid rgb(227, 243, 1); */
 }
 
 #blank{
-    padding: 16px 16px;
-    border: 3px solid yellow;
+    padding: 0px 16px 16px;
+    /* border: 3px solid yellow; */
 }
 
 #Features{
+    
     border: 3px solid rgb(9, 255, 0);
 }
 
