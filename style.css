@@ -1,8 +1,13 @@
+*{
+    font-size: 1.1rem;
+}
+
 body {
     margin: 0;
     padding: 0;
     height: 100%;
     width: 100%;
+    font-family: 'Oswald', sans-serif;
   }
 
 
@@ -59,8 +64,8 @@ a{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    gap: 5px;
-    margin: 0 auto;
+    gap: 10px;
+    margin: 16px auto;
     padding: 0 10%;
     font-family:  sans-serif;
     text-align: center;
@@ -69,34 +74,55 @@ a{
 
 
 #top{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1fr 1fr;
+    justify-content: space-between;
+    align-content: space-between;
+    border: 3px solid olivedrab;
+    text-align: justify;
     border: 3px solid rgb(245, 140, 4);
+}
+
+#top img{
+    width: 99%;
+    height: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid rgb(1, 207, 243);
+}
+
+.about{
+    padding: 16px 16px;
+
+}
+
+h2{
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 .video-wrap{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-row: 1fr 1fr;
-    justify-content: space-around;
-    align-content: space-around;
+    justify-content: space-between;
+    align-content: space-between;
     border: 3px solid olivedrab;
-    text-align: center;
+    text-align: justify;
 }
 
 #video{
-    width: 100%;
-    height: 100%;
+    width: 99%;
+    height: 99%;
     margin-left: auto;
     margin-right: auto;
     border: 3px solid rgb(227, 243, 1);
-    display: block;
-
 }
 
 #blank{
-    width: 100%;
-    height: 100%;
+    padding: 16px 16px;
     border: 3px solid yellow;
-    background-image: url(image/background.jpg);
 }
 
 #Features{
