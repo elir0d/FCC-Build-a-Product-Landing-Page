@@ -130,9 +130,28 @@ h2{
     /* border: 3px solid yellow; */
 }
 
-#Features{
-    
-    border: 3px solid rgb(9, 255, 0);
+#features{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 1rem;
+    align-content: space-around;
+    justify-content: space-between;
+    /* border: 3px solid rgb(9, 255, 0); */
+}
+
+#features h3{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#features p{
+    text-align: justify;
+    padding: 0 1rem;
+}
+#features img{
+    width: 30%;
+    height: 30%;
+    padding: 0 1rem;
 }
 
 #Pricing {
