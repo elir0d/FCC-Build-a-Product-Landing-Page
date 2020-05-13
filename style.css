@@ -132,7 +132,6 @@ h2{
 #features{
     display: flex;
     flex-direction: row;
-    /* padding: 1rem 1rem; */
     align-content: space-around;
     justify-content: space-between;
     padding: 0;
@@ -201,8 +200,33 @@ h2{
     cursor: pointer;
 }
 
-#hero{
-    border: 3px solid rgb(9, 255, 0);
+#footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 30vh;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: center;
+    
+}
+
+#form input{
+    display: inline-flex;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: stretch;
+    border: 1px solid black;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
 
 }
 
