@@ -124,15 +124,13 @@ h2{
     /* border: 3px solid rgb(227, 243, 1); */
 }
 
-#blank{
+#history{
     padding: 0px 16px 16px;
-    /* border: 3px solid yellow; */
 }
 
 #features{
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
-    align-content: space-around;
     justify-content: space-between;
     padding: 0;
     margin: 0;
@@ -151,8 +149,8 @@ h2{
 }
 
 .svg-icon {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
 }
   
 .svg-icon path,
@@ -168,7 +166,7 @@ h2{
 
 
 #Pricing {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     align-content: space-around;
     justify-content: space-between;
