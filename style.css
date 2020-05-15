@@ -72,6 +72,9 @@ a{
     /* border: 3px solid blueviolet; */
 }
 
+p{
+    font-family: 'Oswald', sans-serif;
+}
 
 #top{
     display: grid;
@@ -157,6 +160,7 @@ h2{
 .svg-icon polygon,
 .svg-icon rect{
     fill: black;
+    min-width: 270px;
 }
   
 .svg-icon circle {
@@ -179,6 +183,7 @@ h2{
     grid-template-columns: 1fr;
     grid-auto-rows: repeat(4, 1fr);
     max-width: 30%;
+    min-width: 270px;
     border: 1px solid black;
     border-radius: 3px;
     text-align: center;
@@ -207,7 +212,7 @@ h2{
     margin: 0 16px 10px;
     cursor: pointer;
     border-radius: 5px;
-
+    font-family: 'Oswald', sans-serif;
 }
 
 #footer{
@@ -216,6 +221,12 @@ h2{
     justify-content: center;
     width: 100%;
     height: 30vh;
+}
+
+#footer h2{
+    font-family: 'Monoton','Oswald', sans-serif;
+    font-weight: bold;
+    letter-spacing: .5rem;
 }
 
 #form{
@@ -229,8 +240,16 @@ form input{
     text-align: center;
     border: 1px solid black;
     border-radius: 3px;
-}
+    min-width: 330px;
+    min-height: 35px;
+    font-family: 'Oswald', sans-serif;
 
+}
+form .button{
+    background-color: rgb(48, 48, 48);
+    color: white;
+    cursor: pointer;
+}
 @media(min-width: 820px){
 
 }
