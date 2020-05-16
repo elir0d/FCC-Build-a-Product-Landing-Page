@@ -256,6 +256,7 @@ form .button{
     background-color: rgb(48, 48, 48);
     color: white;
     cursor: pointer;
+    margin: 5px 0;
 }
 @media(min-width: 820px){
 
