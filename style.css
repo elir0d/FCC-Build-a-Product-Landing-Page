@@ -245,7 +245,7 @@ h2{
 
 form input{
     text-align: center;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 3px;
     min-width: 330px;
     min-height: 35px;
@@ -253,10 +253,19 @@ form input{
 
 }
 form .button{
+    background-color: white;
+    color: rgb(48, 48, 48);
+    cursor: pointer;
+    margin: 5px 0;
+    transition: 0.5s;
+}
+
+form .button:hover{
     background-color: rgb(48, 48, 48);
     color: white;
     cursor: pointer;
     margin: 5px 0;
+    border: 3px;
 }
 @media(min-width: 820px){
 
