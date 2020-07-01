@@ -55,7 +55,7 @@ nav{
 
 li{
     display: inline-block;
-    padding: 0 30px;
+    padding: 0 20px;
     list-style: none;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
@@ -322,6 +322,7 @@ form .button:hover{
     }
 
     nav{
+        padding: 0;
         margin: auto auto;
         display: inline-block;
     }
