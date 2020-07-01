@@ -221,7 +221,7 @@ h2{
 }
 
 #footer{
-    display: flex;
+    display: inline-block;
     flex-direction: column;
     justify-content: center;
     width: 100%;
@@ -234,10 +234,12 @@ h2{
     letter-spacing: .5rem;
 }
 
-#form{
+.form-container{
+    text-align: center;
+    margin: 0 auto;
     display: block;
     border: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: center;
 }
 
@@ -245,12 +247,13 @@ form input{
     text-align: center;
     border: 2px solid black;
     border-radius: 3px;
-    min-width: 330px;
+    min-width: 300px;
     min-height: 35px;
     font-family: 'Oswald', sans-serif;
 
 }
 form .button{
+    min-width: 300px;
     background-color: white;
     color: rgb(48, 48, 48);
     cursor: pointer;
@@ -315,6 +318,10 @@ form .button:hover{
 
     .logo{
         display: none;
+    }
+
+    footer{
+        margin: 0 auto;
     }
 }
 
