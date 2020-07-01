@@ -339,6 +339,20 @@ form .button:hover{
 
     footer{
         margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-container h2{
+        margin: 0 auto;
+        text-align: center;
+        font-size: 1.2rem;
+        letter-spacing: 0.2rem;
+
+    }
+
+    .form-container{
+        padding: 0;
     }
 }
 
