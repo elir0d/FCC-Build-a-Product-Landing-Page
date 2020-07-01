@@ -317,9 +317,19 @@ form .button:hover{
     #header{
         margin: 0 auto;
         display: flex;
-        flex-direction: row;
         max-width: 100%;
         padding: 0;
+    }
+
+    nav{
+        margin: auto auto;
+        display: inline-block;
+    }
+
+    nav ul{
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .logo{
